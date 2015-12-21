@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">app das anedotas</string>
+
+    <string name="title_section1">Principal</string>
+    <string name="title_section2">Anedotas</string>
+    <string name="title_section3">Entrar</string>
+    <string name="title_section4">Registar</string>
+
+    <!--<string name="categoria_1">Alentejanos</string>-->
+    <!--<string name="categoria_2">Animais</string>-->
+    <!--<string name="categoria_3">Família</string>-->
+    <!--<string name="categoria_4">Idosos</string>-->
+    <!--<string name="categoria_5">Joãozinho</string>-->
+    <!--<string name="categoria_6">Loiras</string>-->
+    <!--<string name="categoria_7">Loucos</string>-->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">vazio</string>
+
+    <string name="action_settings">Opções</string>
+</resources>
