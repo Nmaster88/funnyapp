@@ -9,10 +9,8 @@
         android:layout_height="match_parent"
         android:choiceMode="singleChoice"
         android:gravity="center"
-        android:divider="@android:color/holo_orange_dark"
         android:dividerHeight="2dp"
-        >
-    </ListView>
+        />
     <!--android:entries="@array/categories"-->
 
 

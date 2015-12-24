@@ -21,7 +21,7 @@ public class CategoriesListViewAdapter extends BaseAdapter {
 
     public CategoriesListViewAdapter(String[] arr, Context context) {
         this.categories = arr;
-        this.context = context;
+//        this.context = context;
 //        this.myInflater= (LayoutInflater)context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         this.myInflater= LayoutInflater.from(context);
     }
@@ -42,11 +42,11 @@ public class CategoriesListViewAdapter extends BaseAdapter {
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(int position, View convertView, ViewGroup parent)
+    {
         if(convertView == null){
             convertView = myInflater.inflate(R.layout.test, null);
         }
-
         ((TextView) convertView).setText(categories[position]);
         //convertView.setClickable(false);
 

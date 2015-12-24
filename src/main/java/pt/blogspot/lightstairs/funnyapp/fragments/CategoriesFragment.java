@@ -72,7 +72,7 @@ public class CategoriesFragment extends Fragment implements AdapterView.OnItemCl
 
         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
             Toast.makeText(getActivity(), ((TextView)view).getText().toString(), Toast.LENGTH_LONG).show();
-            ((MainActivity) getActivity()).loadAnecdotes("Alentejanos");
+            ((MainActivity)getActivity()).loadAnecdotes(((TextView)view).getText().toString());
         }
 
     }

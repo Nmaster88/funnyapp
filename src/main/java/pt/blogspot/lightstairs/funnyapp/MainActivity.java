@@ -75,7 +75,10 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void loadAnecdotes(String category){
-
+        FragmentTransaction transaction = getFragmentManager().beginTransaction();
+        android.app.Fragment fragment = AnecdoteFragment.newInstance(category);
+        transaction.replace(R.id.container, fragment);
+        transaction.commit();
     }
 
     private void setListFragment(){
